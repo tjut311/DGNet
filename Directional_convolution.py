@@ -150,7 +150,7 @@ class DSConv(nn.Module):
         x = self.pointwise(x)  # Apply pointwise convolution
         return x
 
-#Direction_convolution
+#Directional_convolution
 class DC(nn.Module):
     r"""
     Args:
