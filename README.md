@@ -1,2 +1,2 @@
-# OCTA-Net: A Two-stage Framework for Vessel Segmentation in OCTA Images
+# Direction-guided network for retinal vessel segmentation in OCTA images
 ![](./Figs/Figure_2.jpg)
