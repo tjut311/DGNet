@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from Direction_convolution import DC  # Import DC from the direction_convolution module
+from Directional_convolution import DC  # Import DC from the direction_convolution module
 
 class DGM(nn.Module):
     r"""
