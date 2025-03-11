@@ -32,6 +32,6 @@ class DGM(nn.Module):
 
         # Attention computation
         attention = self.softmax(torch.bmm(q.permute(0, 2, 1), k))  # Compute attention scores
-        output = torch.bmm(v, attention.permute(0, 2, 1))  # Apply attention to values
+        output = torch.bmm(v, attention.permute(0, 2, 1)).view(b, c, h, w)  # Apply attention to values
         
         return output
