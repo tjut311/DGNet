@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
 import torch
-from directional_convolution import DGM
+from Direction_guidance_module import DGM
 
 # Swish activation function
 def swish(x):
